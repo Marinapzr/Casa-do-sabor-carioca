@@ -7,14 +7,13 @@
 }
 
 header {
-  background-image: url(imagem/pão\ de\ açucar\ \(figma\).jpg);
+  background-image: url("./imagem/vista.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
 }
 
 .inicio {
-  border: solid 2px;
   padding: 0 30px;
   margin-left: 900px;
 }
@@ -28,7 +27,6 @@ header {
   vertical-align: middle;
   width: 60px;
   margin: 0 9px;
-  border: solid red;
 }
 .inicio .topo a {
   color: white;
@@ -36,7 +34,6 @@ header {
   font-weight: bold;
   font-size: 20px;
   margin: 0 5px;
-  border: solid rebeccapurple;
 }
 
 .titulo {
@@ -45,7 +42,6 @@ header {
   color: white;
 }
 .titulo h1 {
-  border: solid red;
   font-size: 70px;
   margin: 10px 0;
   font-weight: bold;
@@ -80,16 +76,21 @@ header button {
 }
 
 .itens {
-  width: 750px; /* 3 itens de 240px = 720 + 30px de margem entre eles */
+  width: 750px;
+  /* 3 itens de 240px = 720 + 30px de margem entre eles */
   margin: auto;
-  text-align: left; /* ESSENCIAL para inline-block não quebrar */
-  font-size: 0; /* Remove espaço em branco entre os blocos */
+  text-align: left;
+  /* ESSENCIAL para inline-block não quebrar */
+  font-size: 0;
+  /* Remove espaço em branco entre os blocos */
 }
 
 .item {
   display: inline-block;
-  width: 220px; /* diminuímos para compensar a nova margem */
-  margin: 10px; /* isso dá espaço entre os itens dos lados e embaixo */
+  width: 220px;
+  /* diminuímos para compensar a nova margem */
+  margin: 10px;
+  /* isso dá espaço entre os itens dos lados e embaixo */
   background-color: #e5f1ff;
   border-radius: 10px;
   padding: 1rem;
@@ -126,7 +127,8 @@ header button {
 
 .item button:hover {
   background-color: #e6c200;
-  color: black; /* ou white, dependendo do contraste que desejar */
+  color: black;
+  /* ou white, dependendo do contraste que desejar */
 }
 
 .item.laranja {
@@ -138,9 +140,12 @@ header button {
 }
 
 .item:hover {
-  padding: 12px; /* aumenta um pouco o espaço interno */
-  margin-bottom: 13px; /* diminui a margem para manter o espaço */
-  background-color: #d0e8ff; /* opcional: cor diferente ao passar o mouse */
+  padding: 12px;
+  /* aumenta um pouco o espaço interno */
+  margin-bottom: 13px;
+  /* diminui a margem para manter o espaço */
+  background-color: #d0e8ff;
+  /* opcional: cor diferente ao passar o mouse */
 }
 
 .rodape {
@@ -185,11 +190,14 @@ header button {
 .parte2 img {
   border: 2px solid transparent;
   padding: 2px;
-  background-color: #0b0b30; /* mesma cor do fundo */
+  background-color: #0b0b30;
+  /* mesma cor do fundo */
 }
 
 .parte1 img:hover,
 .parte2 img:hover {
-  border-color: #333333; /* cria uma borda escura que simula escurecimento */
-  background-color: #111; /* leve escurecimento */
+  border-color: #333333;
+  /* cria uma borda escura que simula escurecimento */
+  background-color: #111;
+  /* leve escurecimento */
 }/*# sourceMappingURL=style.css.map */
