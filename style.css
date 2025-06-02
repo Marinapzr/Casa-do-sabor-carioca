@@ -1,0 +1,195 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  background-image: url(imagem/pão\ de\ açucar\ \(figma\).jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.inicio {
+  border: solid 2px;
+  padding: 0 30px;
+  margin-left: 900px;
+}
+.inicio .topo {
+  display: inline-block;
+  line-height: 100px;
+  margin-left: 25px;
+}
+.inicio .topo img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  margin: 0 9px;
+  border: solid red;
+}
+.inicio .topo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 5px;
+  border: solid rebeccapurple;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+.titulo h1 {
+  border: solid red;
+  font-size: 70px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+header button {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  color: white;
+  width: 18vw;
+}
+
+.cardapio {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fffbe6;
+}
+.cardapio p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: dimgray;
+}
+
+.itens {
+  width: 750px; /* 3 itens de 240px = 720 + 30px de margem entre eles */
+  margin: auto;
+  text-align: left; /* ESSENCIAL para inline-block não quebrar */
+  font-size: 0; /* Remove espaço em branco entre os blocos */
+}
+
+.item {
+  display: inline-block;
+  width: 220px; /* diminuímos para compensar a nova margem */
+  margin: 10px; /* isso dá espaço entre os itens dos lados e embaixo */
+  background-color: #e5f1ff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 16px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+}
+
+.item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.item button {
+  background-color: #FFD700;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #e5f1ff;
+  font-weight: bold;
+}
+
+.item button:hover {
+  background-color: #e6c200;
+  color: black; /* ou white, dependendo do contraste que desejar */
+}
+
+.item.laranja {
+  background-color: #fff3b0;
+}
+
+.item.amarelo {
+  background-color: #FFFA9B;
+}
+
+.item:hover {
+  padding: 12px; /* aumenta um pouco o espaço interno */
+  margin-bottom: 13px; /* diminui a margem para manter o espaço */
+  background-color: #d0e8ff; /* opcional: cor diferente ao passar o mouse */
+}
+
+.rodape {
+  background-color: #0B0F3C;
+  color: #fffde7;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.parte1,
+.parte2 {
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.parte1 p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.parte1 img {
+  width: 40px;
+  margin: 0 6px;
+  display: inline-block;
+}
+
+.parte2 img {
+  width: 40px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.parte2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.parte1 img,
+.parte2 img {
+  border: 2px solid transparent;
+  padding: 2px;
+  background-color: #0b0b30; /* mesma cor do fundo */
+}
+
+.parte1 img:hover,
+.parte2 img:hover {
+  border-color: #333333; /* cria uma borda escura que simula escurecimento */
+  background-color: #111; /* leve escurecimento */
+}/*# sourceMappingURL=style.css.map */
